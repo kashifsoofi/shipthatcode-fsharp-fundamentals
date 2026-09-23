@@ -1,8 +1,7 @@
+let rec sumList = function
+    | [] -> 0
+    | head :: tail -> head + sumList tail
+
 let line = System.Console.ReadLine()
-let result =
-    line.Split(' ')
-    |> Array.map int
-    |> Array.filter (fun x -> x % 2 = 0)
-    |> Array.map (fun x -> x * x)
-    |> Array.sum
-printfn "%d" result
+let nums = line.Split(' ') |> Array.map int |> Array.toList
+printfn "%d" (sumList nums)
