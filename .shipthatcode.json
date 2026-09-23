@@ -1,0 +1,46 @@
+{
+  "course": "fsharp-fundamentals",
+  "language": "fsharp",
+  "language_id": 87,
+  "entrypoint": "main.fsx",
+  "version": 1,
+  "content_hash": "e18b12f5e364e89a",
+  "lessons": [
+    {
+      "slug": "hello-fsharp",
+      "tests_hash": "c9cf5efeb286"
+    },
+    {
+      "slug": "bindings",
+      "tests_hash": "825d6c6cb914"
+    },
+    {
+      "slug": "functions",
+      "tests_hash": "6f84152387e4"
+    },
+    {
+      "slug": "pipelines",
+      "tests_hash": "a4b2fb120035"
+    },
+    {
+      "slug": "pattern-matching",
+      "tests_hash": "23470cc14626"
+    },
+    {
+      "slug": "discriminated-unions",
+      "tests_hash": "bbe03b22b1fe"
+    },
+    {
+      "slug": "lists",
+      "tests_hash": "6ecf1642cb3a"
+    },
+    {
+      "slug": "tuples",
+      "tests_hash": "e45ba946fc51"
+    },
+    {
+      "slug": "reading-io",
+      "tests_hash": "c14198f9d053"
+    }
+  ]
+}
